@@ -5,18 +5,18 @@ Core idea:
 
 Upload any PDF → The chatbot extracts the content → You ask questions → It gives accurate, context-aware answers.
 
-Backend	FastAPI / Flask
-Document Parsing	PyMuPDF / pdfplumber
-Embeddings	OpenAI Embeddings / SentenceTransformers
-Vector Database	FAISS / ChromaDB
-LLM	Mistral / GPT / Phi-2 (configurable)
-RAG Frameworks	LangChain
+Can expose it to UI using Streamlit
+Backend:	Python/FastAPI
+Document Parsing:	PyMuPDF
+Embeddings:	OpenAI Embeddings
+Vector Database	: ChromaDB
+RAG Frameworks:	LangChain
 Environment	Python 3.10+
 
 
 Setup Instructions:
 1️⃣ Clone the Repository
-git clone [https://github.com/<your-username>/Rag_Model.git]
+git clone [https://github.com/sssangeetha/Rag_Model/]
 cd Rag_Model
 
 2️⃣ Create and Activate a Virtual Environment
